@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-import "@openzeppelin/contracts/security/Pausable.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/utils/math/Math.sol";
+import "@openzeppelin-contracts/contracts/security/Pausable.sol";
+import "@openzeppelin-contracts/contracts/access/Ownable.sol";
+import "@openzeppelin-contracts/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin-contracts/contracts/utils/math/Math.sol";
 
 contract OnchainPowerball is Pausable, Ownable, ReentrancyGuard {
     // Constants for game mechanics
